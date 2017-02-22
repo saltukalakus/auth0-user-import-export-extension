@@ -1,8 +1,8 @@
 {
   "title": "User Import / Export with Error Logs",
   "name": "auth0-user-import-export-error-logs",
-  "version": "1.6.3",
-  "author": "auth0",
+  "version": "1.7.0",
+  "author": "saltuk",
   "useHashName": false,
   "description": "This extension allows you to import/export users from/to your account.",
   "type": "application",
