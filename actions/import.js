@@ -64,9 +64,12 @@ export function importUsers(files, connectionId) {
           payload: {
             promise: axios.post(`https://${window.config.AUTH0_DOMAIN}/api/v2/jobs/users-imports`, data, {
               responseType: 'json'
-            }).catch(function (error) {
+            }).then(function (response) {
+              console.log(response);
+            })
+            .catch(function (error) {
               console.log(error);
-              });
+            })
           }
         });
       });
