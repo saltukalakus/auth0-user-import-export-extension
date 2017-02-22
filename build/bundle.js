@@ -370,7 +370,7 @@ module.exports =
 	    throw new ArgumentError('Must provide a webtask context');
 	  }
 	
-	  const settings = _.assign({ }, ({"NODE_ENV":"production","CLIENT_VERSION":"1.8.0"}), webtaskContext.params, webtaskContext.secrets, {
+	  const settings = _.assign({ }, ({"NODE_ENV":"production","CLIENT_VERSION":"1.6.3"}), webtaskContext.params, webtaskContext.secrets, {
 	    NODE_ENV: 'production',
 	    HOSTING_ENV: 'webtask'
 	  });
@@ -2126,7 +2126,7 @@ module.exports =
 	module.exports = {
 		"title": "User Import / Export with Error Logs",
 		"name": "auth0-user-import-export-error-logs",
-		"version": "1.8.0",
+		"version": "1.6.3",
 		"author": "saltuk",
 		"useHashName": false,
 		"description": "This extension allows you to import/export users from/to your account.",
