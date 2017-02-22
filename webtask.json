@@ -1,6 +1,6 @@
 {
-  "title": "User Import / Export",
-  "name": "auth0-user-import-export",
+  "title": "User Import / Export with Error Logs",
+  "name": "auth0-user-import-export-error-logs",
   "version": "1.6.3",
   "author": "auth0",
   "useHashName": false,
